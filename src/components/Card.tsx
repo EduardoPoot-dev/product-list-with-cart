@@ -24,7 +24,7 @@ export default function Card({product} : CardProps) {
                 <img 
                     src={`${product.image.mobile}`} 
                     className={`${productExistToCart ? 'border-2 border-rose-900' : 'border-none'} transition-colors rounded-lg`}
-                    alt="Image wafle" 
+                    alt={product.name} 
                 />
             </picture>
 

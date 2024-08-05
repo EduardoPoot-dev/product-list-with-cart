@@ -35,7 +35,7 @@ export default function Modal({ setShowModal }: ModalProps) {
                     {cart.map(product => (
                         <div className='flex gap-4 border-b py-2'>
                             <figure className='w-14'>
-                                <img src={product.image.thumbnail} alt="Image brownie" />
+                                <img src={product.image.thumbnail} alt={product.name} />
                             </figure>
 
                             <div className='w-full flex justify-between items-center'>
