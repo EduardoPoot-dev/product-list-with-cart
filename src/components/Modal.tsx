@@ -72,7 +72,6 @@ export default function Modal({ setShowModal }: ModalProps) {
                 width={width}
                 height={height}
                 recycle={false}
-                tweenDuration={1000}
             />
         </div>
     )
